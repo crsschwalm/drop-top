@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `🍾  Drop Top`,
+    title: `🍾  Drop Top `,
     description:
       'The shaker bottle that delivers your supplements at the push of a button',
     author: `@crsschwalm`,
