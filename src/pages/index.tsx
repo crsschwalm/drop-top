@@ -40,7 +40,7 @@ const IndexPage = () => (
     </section>
 
     <section className="bg-slate-200">
-      <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+      <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:pt-16 lg:px-6">
         <div className="mb-4 gap-4">
           <Video
             videoSrcURL="https://giphy.com/embed/5IFo5UWAYXp93BfJMM"
@@ -48,7 +48,7 @@ const IndexPage = () => (
           />
         </div>
 
-        <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+        <div className="font-light text-gray-600 sm:text-lg">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">
             Get your protein FASTER!
           </h2>
@@ -66,24 +66,24 @@ const IndexPage = () => (
       </div>
     </section>
     <section className="bg-slate-200">
-      <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-        <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
+      <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:pb-16 lg:px-6">
+        <div className="font-light text-gray-600 sm:text-lg">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">
             DropTop™️ and Roll
           </h2>
-          <p className="mb-4 text-gray-600">
+          <p className="mb-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut veniam,
             vel dolores eaque laborum deleniti ducimus aliquam est iste
             consequatur saepe nostrum asperiores laudantium voluptatem,
             explicabo iusto ipsa in mollitia!
           </p>
-          <p className=" text-gray-600">
+          <p>
             We are strategists, designers and developers. Innovators and problem
             solvers. Small enough to be simple and quick.
           </p>
         </div>
 
-        <div className="mb-4 gap-4">
+        <div className="my-4 gap-4">
           <Video
             videoSrcURL="https://www.youtube.com/embed/dQw4w9WgXcQ"
             videoTitle="Drop Top Demo"
