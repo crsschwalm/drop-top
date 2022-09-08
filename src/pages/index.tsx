@@ -10,13 +10,13 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
 
-    <section className="md:bg-gradient-to-l md:from-gray-500 sm:bg-gray-900">
+    <section className="md:bg-gradient-to-l md:from-blue-500  bg-blue-900">
       <div className="grid max-w-screen-xl px-8 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div className="mr-auto place-self-center lg:col-span-7">
           <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
             Drop Top
           </h1>
-          <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+          <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-200">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa aut
             pariatur debitis nostrum, laboriosam sapiente incidunt quos sed eos
             architecto quia amet corrupti sunt alias perspiciatis porro, dolores
@@ -24,14 +24,14 @@ const IndexPage = () => (
           </p>
           <Link
             to="/shop"
-            className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+            className="inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-rose-100  dark:hover:bg-rose-500 dark:focus:ring-gray-800"
           >
             Shop Now
           </Link>
         </div>
         <div className="m-auto mt-8 items-center lg:mt-0 lg:col-span-5 flex">
           <StaticImage
-            className="w-full rounded-lg"
+            className="w-full"
             src="../images/shaker-disected.png"
             alt="Drop Top Disected"
           />
